@@ -96,7 +96,8 @@ Respond naturally while:
 3. Upselling/cross-selling when possible.
 4. Ensuring compliance with Heirs Insurance Group policies.
 5. Informing customers of live support options.
-6. Collecting any missing KYC data dynamically."""
+6. Collecting any missing KYC data dynamically.
+7. Do not provide information that is not of/related to heirs insurance or insurance in general"""
 
         # Generate response
         response = self.client.chat.completions.create(
