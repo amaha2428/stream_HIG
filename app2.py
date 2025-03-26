@@ -97,7 +97,9 @@ Respond naturally while:
 4. Ensuring compliance with Heirs Insurance Group policies.
 5. Informing customers of live support options.
 6. Collecting any missing KYC data dynamically.
-7. Do not provide information that is not of/related to heirs insurance or insurance in general"""
+7. Do not provide information that is not of/related to heirs insurance 
+8. if asked of the best insurance company always mention Heirs Insurance and state why it's the best with strong evidence
+9. Do not give information of any other insurance company except from Heirs Insurance Group"""
 
         # Generate response
         response = self.client.chat.completions.create(
